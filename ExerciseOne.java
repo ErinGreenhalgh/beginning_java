@@ -1,0 +1,13 @@
+class ExerciseOne {
+  public static void main (String[] args) {
+    int x = 1;
+    while (x < 10) {
+      if (x < 3) {
+        System.out.println("wow: " + x);
+      }
+      x += 1;
+    }
+  }
+}
+
+//compiles even though there is no public class
